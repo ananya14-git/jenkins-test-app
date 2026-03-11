@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = 'ananya14-git/jenkins-test-app'
+        DOCKER_IMAGE = 'ananya1410/jenkins-test-app'
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
     
